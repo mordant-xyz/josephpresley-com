@@ -15,3 +15,7 @@
 .paige-summary {
     display: none;
 }
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: black;
+}
