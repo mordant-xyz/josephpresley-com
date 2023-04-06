@@ -1,5 +1,5 @@
 ---
-description: "Powerful, pliable pixel perfection."
+description: "Tech worker and comedian"
 paige:
   style: |
     #paige-collections,
@@ -10,17 +10,19 @@ paige:
     #paige-title {
         font-size: 5rem;
     }
-title: "Paige"
+title: "Joseph Presley"
 ---
 
 {{< paige/hero
     alt="Landscape"
     format="webp"
-    header="An advanced Hugo theme"
-    image="https://images.unsplash.com/photo-1490604001847-b712b0c2f967?w=1296"
+    header="About me"
+    image="/jp-goth-hero.webp"
     imageclass="rounded-4 shadow"
-    stretch=true >}}
-Paige is designed to put your content front and center, avoiding the typical clutter. The look is seamless and smooth, scalable and readable, portable and efficient. The layout is minimal and responsive, using verticality and white space to focus and delineate parts of the page. The implementation is flexible and extensible. It's a versatile canvas that serves most web needs.
+    stretch=true
+    title="Joseph Presley"
+    >}}
+I am a devops/infrastructure/cloud engineer with 10 years of experience in the tech industry. With a background as a software engineer before moving to infrastructure, I bring pragmatic programming and clean code to infrastructure code. As a hobby and as a creative outlet, I do comedy in both improv and standup. Other hobbies include attending concerts and other musical experiences, board games, and table-top roleplaying games."
 {{< /paige/hero >}}
 
 <p class="text-center">
