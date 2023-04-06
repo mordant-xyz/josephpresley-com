@@ -3,9 +3,13 @@ copyright = "© Joseph Presley"
 enablerobotstxt = true
 languagecode = "en-us"
 paginate = 50
+themesDir = "themes"
 theme = "paige"
 timezone = "America/Los_Angeles"
 titlecasestyle = "Go"
+
+[[module.imports]]
+path = "github.com/willfaught/paige"
 
 [languages.en]
 weight = 10
