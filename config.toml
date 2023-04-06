@@ -52,7 +52,7 @@ home = [ "html", "json", "rss" ]
 name = "Joseph Presley"
 
 [params.paige.git]
-commit_url_prefix = "https://github.com/willfaught/paige/commit/"
+commit_url_prefix = "https://github.com/mordant-xyz/josephpresley-website/commits/"
 
 [taxonomies]
 author = "authors"
