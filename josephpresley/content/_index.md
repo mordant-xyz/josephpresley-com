@@ -24,11 +24,3 @@ title: "Joseph Presley"
     >}}
 I am a devops/infrastructure/cloud engineer with 10 years of experience in the tech industry. With a background as a software engineer before moving to infrastructure, I bring pragmatic programming and clean code to infrastructure code. As a hobby and as a creative outlet, I do comedy in both improv and standup. Other hobbies include attending concerts and other musical experiences, board games, and table-top roleplaying games."
 {{< /paige/hero >}}
-
-<p class="text-center">
-    <a class="lead" href="https://github.com/willfaught/paige">Install it now.</a>
-</p>
-
-<div class="column-gap-3 d-flex display-6 justify-content-center mb-3">
-    {{< paige/icon class="bi bi-github" name="GitHub" url="https://github.com/willfaught/paige" >}}
-</div>
