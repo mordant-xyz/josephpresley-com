@@ -2,14 +2,13 @@ version: 1
 applications:
   - frontend:
       phases:
+        preBuild:
+          commands:
+            - amazon-linux-extras install golang1.19
+            - wget https://github.com/gohugoio/hugo/releases/download/v${VERSION_HUGO}/hugo_extended_${VERSION_HUGO}_Linux-64bit.tar.gz
+            - tar -xf hugo_extended_${VERSION_HUGO}_Linux-64bit.tar.gz -C /usr/bin hugo
+            - rm -rf hugo_extended_${VERSION_HUGO}_Linux-64bit.tar.gz
         build:
-          phases:
-            preBuild:
-              commands:
-                - amazon-linux-extras install golang1.19
-                - wget https://github.com/gohugoio/hugo/releases/download/v${VERSION_HUGO}/hugo_extended_${VERSION_HUGO}_Linux-64bit.tar.gz
-                - tar -xf hugo_extended_${VERSION_HUGO}_Linux-64bit.tar.gz -C /usr/bin hugo
-                - rm -rf hugo_extended_${VERSION_HUGO}_Linux-64bit.tar.gz
           commands:
             - hugo mod get -u
             - hugo
