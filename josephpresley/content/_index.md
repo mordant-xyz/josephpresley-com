@@ -22,5 +22,5 @@ title: "Joseph Presley"
     stretch=true
     title="Joseph Presley"
     >}}
-I am a devops/infrastructure/cloud engineer with 10 years of experience in the tech industry. With a background as a software engineer before moving to infrastructure, I bring pragmatic programming and clean code to infrastructure code. As a hobby and as a creative outlet, I do comedy in both improv and standup. Other hobbies include attending concerts and other musical experiences, board games, and table-top roleplaying games."
+I am a devops/infrastructure/cloud engineer with 10 years of experience in the tech industry. With a background as a software engineer before moving to infrastructure, I bring pragmatic programming and clean code principles to infrastructure. As a hobby and as a creative outlet, I do comedy in both improv and standup. Other hobbies include attending concerts and other musical experiences, board games, and table-top roleplaying games."
 {{< /paige/hero >}}
